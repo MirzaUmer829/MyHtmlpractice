@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="practice.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="list.html">List</a>
+            <a href="table.html">Table</a>
+            <a href="form.html">Form</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Student School Form</h1>
+        <hr>
+        <h1>School Form</h1>
+        <form action="">
+            <div>Enter your name : <input type="text" placeholder="Enter Name" name="name" required maxlength="10">
+            </div>
+            <div>Enter your fatherName : <input type="text" placeholder="Enter FatherName" name="fathername"
+                    maxlenth="10" required></div>
+            <div>Tell us About you : <textarea name="About you" cols="20" rows="5"></textarea></div>
+            <div>Enter your Email : <input type="email" placeholder="Enter Email" name="email" required></div>
+            <div>Enter your Password : <input type="password" placeholder="Enter Password" name="password" required>
+                <input type="submit">
+            </div>
+
+        </form>
+        <hr>
+        <br>
+        <br>
+        <!-- second form -->
+        <fieldset>
+            <legend> <b>Login form</b></legend>
+            <form>
+                <div>Enter your Name : <input type="text" name="entername" placeholder="Enter your name"></div>
+                <div>Enter your Fathername : <input type="text" name="enterfathername"
+                        placeholder="Enter your Fathername"></div>
+                <div>Tell us About you : <textarea name="aboutyou" cols="20" rows="10"></textarea></div>
+                <div>Enter your Email : <input type="email" name="email" placeholder="Enter email"></div>
+                <div>Enter password : <input type="password" name="enterpassword" placeholder="Enter password"></div>
+                <div>Gender :
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>hobbies :
+                    <input type="checkbox" name="hobbies" id="bookreading" value="bookreading">
+                    <label for="bookreading">bookreading</label>
+                    <input type="checkbox" name="hobbies" id="fishing" value="fishing">
+                    <label for="fishing">fishing</label>
+                    <input type="checkbox" name="hobbies" id="hunting" value="hunting">
+                    <label for="hunting">hunting</label>
+
+                </div>
+                <div>What's your favourite books :
+                    <select name="book">
+                        <option value="english">English</option>
+
+                        <option value="urdu">Urdu</option>
+
+                        <option value="maths">Maths</option>
+
+                        <option value="computer">Computer</option>
+                    </select>
+                </div>
+            </form>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </main>
+</body>
+
+</html>
